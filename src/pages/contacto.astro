@@ -1,0 +1,53 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <BaseHead
+      title="Contáctanos | SoporteWebs"
+      description="Información de contacto de SoporteWebs"
+    />
+  </head>
+  <body>
+    <Header />
+
+    <main class="container">
+      <h1>Contáctanos</h1>
+
+      <div class="contact-card">
+        <p>
+          ¿Necesitas soporte, desarrollo o asesoría web?
+          Estamos listos para ayudarte.
+        </p>
+
+        <p>
+          <strong>Correo electrónico:</strong><br />
+          <a href="mailto:contacto@soportewebs.com">
+            contacto@soportewebs.com
+          </a>
+        </p>
+
+        <p>
+          <strong>Teléfonos:</strong><br />
+          9512-6202 / 9690-4707
+        </p>
+
+        <a
+          class="whatsapp-btn"
+          href="https://wa.me/50495126202"
+          target="_blank"
+          rel="noopener"
+        >
+          💬 Escríbenos por WhatsApp
+        </a>
+      </div>
+    </main>
+
+    <Footer />
+  </body>
+</html>

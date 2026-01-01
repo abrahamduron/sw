@@ -1,0 +1,6 @@
+inicio
+
+git status --porcelain=2 --branch; git log --oneline --graph --decorate --left-right HEAD...origin/main || true
+
+# Conflicts:
+#	README.md

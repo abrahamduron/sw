@@ -1,0 +1,34 @@
+pick 8236a4669370644e29e3e0673e5512654c76a5c9 # Initial commit
+pick 8e61f804a4bf071ab3e5535a09a4606a455982dc # inicio
+
+# Rebase 9680f1a..8e61f80 en 9680f1a (2 comandos)
+#
+# Comandos:
+# p, pick <commit> = usar commit
+# r, reword <commit> = usar commit, pero refrasear el mensaje de commit
+# e, edit <commit> = usar commit, pero parar para enmendar
+# s, squash <commit> = usar commit, pero aplastarlo en el commit previo
+# f, fixup [-C | -c] <commit> = como "squash", pero descarta el mensaje del
+#                    log de este commit, a menos que se use -C, en cuyo caso
+#                    mantiene solo el mensaje del commit; -c es lo mismo que
+#                    -C pero abre el editor
+# x, exec <commit> = ejecutar comando (el resto de la línea) usando un shell
+# b, break = parar aquí (continuar rebase luego con 'git rebase --continue')
+# d, drop <commit> = eliminar commit
+# l, label <label> = poner label al HEAD actual con un nombre
+# t, reset <label> = reiniciar HEAD al label
+# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+#         crear un commit de fusión usando el mensaje original de
+#         fusión (o la línea de oneline, si no se especifica un mensaje
+#         de commit). Use -c <commit> para reescribir el mensaje del commit.
+# u, update-ref <referencia> = rasrear un marcador de posición para que la
+#                              <referencia> sea actualizada a esta posición
+#                              en los commits nuevos. Se actualiza la
+#                              <referencia> al fin de la rebase
+#
+# Estas líneas pueden ser reordenadas; son ejecutadas desde arriba hacia abajo.
+#
+# Si eliminas una línea aquí EL COMMIT SE PERDERÁ.
+#
+# Como sea, si quieres borrar todo, el rebase será abortado.
+#

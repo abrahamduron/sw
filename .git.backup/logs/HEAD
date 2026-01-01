@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 9680f1a06c9d1a588cb35bf818cfa10065997eb5 Abraham de Jesus Duron Rios <abrahamduron20@gmail.com> 1767285417 -0600	commit (initial): inicio
+9680f1a06c9d1a588cb35bf818cfa10065997eb5 8236a4669370644e29e3e0673e5512654c76a5c9 Abraham de Jesus Duron Rios <abrahamduron20@gmail.com> 1767286144 -0600	pull --rebase origin main (start): checkout 8236a4669370644e29e3e0673e5512654c76a5c9
+8236a4669370644e29e3e0673e5512654c76a5c9 8e61f804a4bf071ab3e5535a09a4606a455982dc Abraham de Jesus Duron Rios <abrahamduron20@gmail.com> 1767286328 -0600	rebase (continue): inicio
+8e61f804a4bf071ab3e5535a09a4606a455982dc 8e61f804a4bf071ab3e5535a09a4606a455982dc Abraham de Jesus Duron Rios <abrahamduron20@gmail.com> 1767286380 -0600	rebase (finish): returning to refs/heads/main
+8e61f804a4bf071ab3e5535a09a4606a455982dc 9680f1a06c9d1a588cb35bf818cfa10065997eb5 Abraham de Jesus Duron Rios <abrahamduron20@gmail.com> 1767286407 -0600	rebase (start): checkout origin/main
+9680f1a06c9d1a588cb35bf818cfa10065997eb5 e343da76fc1d53e07f1c86ab4dac2f45e57769a7 Abraham de Jesus Duron Rios <abrahamduron20@gmail.com> 1767286462 -0600	rebase (continue): Initial commit
