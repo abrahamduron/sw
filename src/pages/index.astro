@@ -142,5 +142,52 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 </section>
 
     <Footer />
+
+  <button
+      id="btnTop"
+      class="btn-top"
+      aria-label="Volver arriba"
+      title="Volver arriba"
+      type="button"
+      >
+        <span aria-hidden="true">↑</span>
+   </button>
+
+
   </body>
 </html>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btnTop = document.getElementById("btnTop");
+    const footer = document.querySelector("footer");
+
+    if (!btnTop) return;
+
+    // Scroll suave al top
+    btnTop.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+
+    // Mostrar botón cerca del footer (más elegante)
+    if ("IntersectionObserver" in window && footer) {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          btnTop.classList.toggle("show", entry.isIntersecting);
+        },
+        { threshold: 0.1 }
+      );
+
+      observer.observe(footer);
+    } else {
+      // Fallback por compatibilidad
+      window.addEventListener("scroll", () => {
+        btnTop.classList.toggle("show", window.scrollY > 400);
+      });
+    }
+  });
+</script>
+
