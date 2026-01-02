@@ -424,4 +424,26 @@ footer {
 }
 
 
+.nav-menu {
+  display: none;
+}
+
+.nav-menu.open {
+  display: flex;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: #0f172a;
+  }
+}
+
+
+
 
